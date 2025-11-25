@@ -51,7 +51,7 @@ The zero position of Bebo Jr can be referenced from the above picture.
 
 Prior to assembly, you should zero all motors and provide them with the ID shown above. Bebo Jr needs to be assembled so that in the above position, all motors should read zero, hence zero position. This reduces the amount of work necessary for calibration and sim-to-real when training policies on top of the robot.
 
-## Simulation and Motion-retargeting
+## Simulation and Motion Retargeting
 
 ![](./images/simulation.png)
 
