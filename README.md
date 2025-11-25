@@ -14,16 +14,17 @@ In this repository, I also provided simple scripts for motion retargeting using 
 
 | Item                           | Qty | Link                                                                                          | Est. price |
 | ------------------------------ | --- | --------------------------------------------------------------------------------------------- | ---------- |
-| M3 heat-set inserts            | 8   | —                                                                                             | ~5         |
+| ~5                             |
 | Raspberry Pi 5 (4GB)           | 1   | https://www.amazon.fr/-/en/Raspberry-4GB-Quad-Core-ARMA76-64-bit/dp/B0CK3L9WD3                | ~80        |
 | Waveshare motor driver         | 1   | https://www.amazon.fr/dp/B0CJ6TP3TP                                                           | ~30        |
-| XL330-M288T servo              | 2   | —                                                                                             | ~55 each   |
+| XL330-M288T servo              | 10  | https://emanual.robotis.com/docs/en/dxl/x/xl330-m288/                                         | ~55 each   |
 | 7\" HDMI display               | 1   | https://www.amazon.fr/dp/B0CLLHGX54                                                           | ~45        |
 | ReSpeaker 2-Mic HAT for Pi     | 1   | —                                                                                             | ~18        |
 | Innomaker 720p camera          | 1   | https://www.amazon.fr/-/en/InnoMaker-720P-Camera-DFOV-120%C2%B0/dp/B0CLRJZG8D                 | ~25        |
 | 3W mini speaker (JST-PH2.0)    | 1   | https://www.amazon.fr/-/en/QUARKZMAN-JST-PH2-0-Interface-Electronic-Advertising/dp/B0DB1WM4QR | ~12        |
 | 6704-2RS bearings (20x27x4 mm) | 2   | https://www.amazon.fr/-/en/sourcing-6704-2RS-Groove-Bearing-20mmx27mmx4mm/dp/B0834WBWGS       | ~8 each    |
 | Thin micro-HDMI cable          | 1   | https://www.amazon.fr/dp/B0F1NFHK91                                                           | ~10        |
+| M3 heat-set inserts            | 8   | —                                                                                             |
 
 There are miscellaneous parts, such as wires, but they should be included when you buy the core components.
 
@@ -83,3 +84,7 @@ You can learn more about each stages of the re-targeting pipeline below:
 - `uv run teleop/2_inverse_kinematics.py` — sinusoidal wrist targets driving the simulated arms.
 - `uv run teleop/3_camera_robot_overlay.py` — camera feed with overlaid targets.
 - `uv run teleop/4_camera_robot_ik.py` — full motion re-target: MediaPipe wrists driving both arms via IK.
+
+## License
+
+This project is GPL-3.0-or-later. You’re free to use, modify, and share it as long as derivatives stay under GPL-compatible terms.
