@@ -1,4 +1,4 @@
-# Bebo Jr
+# Bebo Jr: A small desktop half-humanoid
 
 ![](./images/robot_in_real_life.jpg)
 
